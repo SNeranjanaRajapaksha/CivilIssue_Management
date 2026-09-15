@@ -27,7 +27,7 @@ export default function LoginScreen() {
       );
       return;
     }
-
+    // Check password length
     // Basic email validation
     if (!email.includes("@")) {
       Alert.alert(
