@@ -17,6 +17,10 @@ export default function RootLayout() {
       <Stack.Screen name="officer/complaint/[id]" />
 
       <Stack.Screen name="admin/dashboard" />
+      <Stack.Screen name="admin/complaint/[id]" />
+      <Stack.Screen name="admin/complaints" />
+      <Stack.Screen name="admin/officers" />
+      <Stack.Screen name="admin/users" />
     </Stack>
   );
 }
